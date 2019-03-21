@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.574817, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7789,7 +7789,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: -+-
+  m_Text: .
 --- !u!222 &910782572
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8136,7 +8136,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh26468
+  m_Name: pb_Mesh26480
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -11802,6 +11802,19 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 621494518}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1802594716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802594715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c5e20f12229fc44a98a9459ff27af42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  detectLookedAtInteractive: {fileID: 1802594720}
 --- !u!114 &1802594720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13855,7 +13868,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh26206
+  m_Name: pb_Mesh26218
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2

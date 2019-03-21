@@ -1,18 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿/// <summary>
+/// Interface for elements the player can interact with by playing the interact button. 
+/// </summary>
 
-public class IInteractive : MonoBehaviour
+public interface IInteractive
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    void InteractWith();
 }
