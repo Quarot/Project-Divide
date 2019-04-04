@@ -6,7 +6,7 @@ using UnityEngine;
 public class InteractiveObject : MonoBehaviour, IInteractive
 {
     [SerializeField]
-    private string displayText = nameof(InteractiveObject);
+    protected string displayText = nameof(InteractiveObject);
 
     [SerializeField]
     private string responseText;
