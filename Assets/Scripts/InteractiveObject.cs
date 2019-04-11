@@ -23,8 +23,11 @@ public class InteractiveObject : MonoBehaviour, IInteractive
     {
         try
         {
-            audioSource.Play(); 
+            audioSource.Play();
 
+            //This is a way for the text to change, which is a core feature of the intended project. May likely be reworked to be put somewhere else. As of 4-11-19, it replaces the Display Text
+
+            //displayText = responseText;
         }
         catch (System.Exception)
         {

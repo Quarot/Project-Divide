@@ -28,6 +28,7 @@ public class Door : InteractiveObject
             base.InteractWith();
             animator.SetBool("shouldOpen", true);
             displayText = string.Empty;
+            //displayText = string.ResponseText;
             isOpen = true;
         }
     }
