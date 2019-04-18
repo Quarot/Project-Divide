@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657886, g: 0.4964127, b: 0.57481724, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -8287,7 +8287,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-21616
+  m_Name: pb_Mesh-1402
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -10904,7 +10904,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-21608
+  m_Name: pb_Mesh-1396
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -13175,7 +13175,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-21588
+  m_Name: pb_Mesh-1374
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -17307,7 +17307,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-21630
+  m_Name: pb_Mesh-1416
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -21285,6 +21285,26 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 784288968}
+    - target: {fileID: 3087878157298964558, guid: 2c4e47dc529e8b1439325158c771b903,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: a0ed3ab21ba78b14fae8363d505f04ed, type: 3}
+    - target: {fileID: 3087878157298964561, guid: 2c4e47dc529e8b1439325158c771b903,
+        type: 3}
+      propertyPath: openAudioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: a0ed3ab21ba78b14fae8363d505f04ed, type: 3}
+    - target: {fileID: 3087878157298964561, guid: 2c4e47dc529e8b1439325158c771b903,
+        type: 3}
+      propertyPath: lockedAudioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 629d46d32810d494eab77cae07a03d23, type: 3}
+    - target: {fileID: 3087878157298964561, guid: 2c4e47dc529e8b1439325158c771b903,
+        type: 3}
+      propertyPath: isLocked
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3087878157298964555, guid: 2c4e47dc529e8b1439325158c771b903,
         type: 3}
       propertyPath: m_Faces.Array.data[0].m_TextureGroup
@@ -21315,11 +21335,6 @@ PrefabInstance:
       propertyPath: m_Faces.Array.data[5].m_TextureGroup
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3087878157298964558, guid: 2c4e47dc529e8b1439325158c771b903,
-        type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: a0ed3ab21ba78b14fae8363d505f04ed, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c4e47dc529e8b1439325158c771b903, type: 3}
 --- !u!1001 &6540534617185099782
