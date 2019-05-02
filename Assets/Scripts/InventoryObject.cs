@@ -41,7 +41,7 @@ public class InventoryObject : InteractiveObject
         ///     Can't use Destroy, because we need to keep the GameObject in the inventory list
         ///     So we just disable the Collider and Renderer
         /// </summary>
-
+        
     public override void InteractWith()
     {
         base.InteractWith();
@@ -49,5 +49,7 @@ public class InventoryObject : InteractiveObject
         GetComponent<Renderer>().enabled = false;
         renderer.enabled = false;
         collider.enabled = false;
+
+        Debug.Log($"Inventory menu game object name {InventoryMenu.Instance.name}");
     }
 }
