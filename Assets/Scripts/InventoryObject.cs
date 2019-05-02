@@ -50,6 +50,6 @@ public class InventoryObject : InteractiveObject
         renderer.enabled = false;
         collider.enabled = false;
 
-        Debug.Log($"Inventory menu game object name {InventoryMenu.Instance.name}");
+        Debug.Log($"Inventory menu game object name { InventoryMenu.Instance.name }");
     }
 }
