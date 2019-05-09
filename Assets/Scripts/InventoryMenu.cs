@@ -73,11 +73,23 @@ public class InventoryMenu : MonoBehaviour
 
         canvasGroup = GetComponent<CanvasGroup>();
         rigidbodyFirstPersonController = FindObjectOfType<RigidbodyFirstPersonController>();
-        HideMenu();
+        //HideMenu();
         audioSource = GetComponent<AudioSource>();
     }
     private void Start()
     {
         HideMenu();
+        StartCoroutine(WaitForAudioClip());
+    }
+
+    private IEnumerator WaitForAudioClip()
+    {
+        float originalVolume = audioSource.volume;
+        audioSource.volume = 0;
+        Debug.Log("Start waiting.");
+        yield return new WaitForSeconds(audioSource.clip.length);
+        Debug.Log("Done waiting.");
+        audioSource.volume =  originalVolume;
+        
     }
 }
