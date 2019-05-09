@@ -13342,6 +13342,10 @@ PrefabInstance:
       propertyPath: objectName
       value: Note 3
       objectReference: {fileID: 0}
+    - target: {fileID: 342267506, guid: 2f973525b719c4b418f1e2776b79e632, type: 3}
+      propertyPath: displayText
+      value: Take Note
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f973525b719c4b418f1e2776b79e632, type: 3}
 --- !u!1001 &1171431509
@@ -23620,7 +23624,7 @@ PrefabInstance:
     - target: {fileID: 2933155813603960654, guid: 4e37f791af065514a81c594b236af59e,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.00003148035
+      value: 0.0000071381273
       objectReference: {fileID: 0}
     - target: {fileID: 2933155814396727411, guid: 4e37f791af065514a81c594b236af59e,
         type: 3}
